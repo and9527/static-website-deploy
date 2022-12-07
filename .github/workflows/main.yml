@@ -42,7 +42,7 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-              az storage blob upload-batch --account-name cloud-shell-storage-southeastasia --auth-mode key -d '$web' -s .
+              az storage blob upload-batch --account-name cs1100320021f1acc10 --auth-mode key -d '$web' -s .
       - name: Purge CDN endpoint
         uses: azure/CLI@v1
         with:
